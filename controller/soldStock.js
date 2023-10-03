@@ -1,5 +1,5 @@
-const Sales = require("../models/sales");
-const Product = require("../models/Product");
+const Sales = require("../models/sales.js");
+const Product = require("../models/product.js");
 
 
 const soldStock = async (productID, stockSoldData) => {

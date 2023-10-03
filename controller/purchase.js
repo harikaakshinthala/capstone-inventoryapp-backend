@@ -1,5 +1,5 @@
-const Purchase = require("../models/purchase");
-const purchaseStock = require("./purchaseStock");
+const Purchase = require("../models/purchase.js");
+const purchaseStock = require("./purchaseStock.js");
 
 // Add Purchase Details
 const addPurchase = (req, res) => {

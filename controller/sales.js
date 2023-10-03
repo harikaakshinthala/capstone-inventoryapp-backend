@@ -1,5 +1,5 @@
-const Sales = require("../models/sales");
-const soldStock = require("../controller/soldStock");
+const Sales = require("../models/sales.js");
+const soldStock = require("../controller/soldStock.js");
 
 // Add Sales
 const addSales = (req, res) => {
